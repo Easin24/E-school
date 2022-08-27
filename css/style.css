@@ -20,6 +20,7 @@ header{
     border-radius: 30px;
     margin-left: 20px;
     display: block;
+    transition:0.5s ease;
 }
 .sign_btn:hover{
     background-color:#FBD15B;
