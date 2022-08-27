@@ -1,0 +1,225 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,a,p,span,button{
+    font-family: 'Poppins', sans-serif;
+}
+/* Header Css */
+header{
+    background-color: #F0FFF0;
+}
+.sign_btn {
+    text-decoration: none;
+    color: white !important;
+    background: #21B573;
+    padding: 10px 20px !important;
+    border-radius: 30px;
+    margin-left: 20px;
+    display: block;
+}
+.sign_btn:hover{
+    background-color:#FBD15B;
+}
+.manu_item{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 17px;
+}
+.menu_logo{
+    width: 198px;
+}
+/* Banner */
+.banner_area{
+    align-items: center;
+    min-height: 85vh;
+}
+.banner_right{}
+.banner_right p{
+    color: #FD511A;
+    font-size: 16px;
+}
+.banner_right h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+}
+.banner_right h1 span{
+    color: #21B573;
+}
+.lorem{
+    color: black !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 35px;
+    width: 90%;
+}
+.banner_btn{
+    text-decoration: none;
+    color: white !important;
+    background: #21B573;
+    padding: 10px 20px;
+    border-radius: 25px;
+    /* margin-top: 22px !important; */
+    font-size: 16px;
+    border: 1px solid black;
+    transition: 0.3s;
+    position: relative;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.banner_btn:hover{
+   background-color: #FBD15B;
+   border: 1px solid #FBD15B ;
+}
+.banner_left{
+    text-align: right;
+}
+.banner_img{
+    width: 90%;
+    text-align: right;
+}
+/* Statics */
+.statics{
+    padding: 40px 0px;
+}
+.statics_box {
+    text-align: center;
+    background: #F8FFFB;
+    height: 270px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.statics_box img {
+    width: 66px;
+    margin-bottom: 22px;
+}
+.statics_box h1{
+    font-size: 24px;
+}
+.statics_box p{
+    font-size: 14px;
+}
+.statics_box:hover{
+background-color: white;
+box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+cursor: pointer;
+}
+/* Course */
+.course{
+    padding: 80px 0px;
+}
+.course_heading{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 54px;
+}
+.course_box {
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 18px;
+}
+.course_box img{
+    width: 100%;
+}
+.course_box h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.course_box p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.buy_btn{
+    text-decoration: none;
+    background: #21B573;
+    color: white;
+    padding: 8px 28px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+.buy_btn:hover{
+    color: white;
+    background-color: #FBD15B;
+}
+.course_date {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    padding-left: 0px;
+}
+.course_date li{
+    list-style: none;
+    display: flex;
+}
+.course_date li img{
+    width: 18px;
+    line-height: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.course_date li span{}
+
+/* Testimonial */
+.testimonial{
+    padding: 70px 0px;
+}
+.test_img{
+    max-width: 100px;
+}
+.test_text{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+.test_box {
+    align-items: center;
+    margin-bottom: 25px;
+}
+.my_footer{
+    background-color: #282531;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.footer_text{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer_head{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer_nav{
+    padding: 0;
+}
+.footer_nav li{
+    list-style: none;
+}
+.footer_nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
+}
+.copyright_text{
+    color: #CDCDCD;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 50px;
+}
